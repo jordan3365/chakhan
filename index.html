@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/app.css">
+    <title>The착한 구독서비스</title>
+</head>
+<body>
+    <!-- 상단 메뉴 시작 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 shadow-lg sticky-top ">
+        <div class="container">
+            <a href="index.html" class="navbar-brand align-middle">
+                <h3 class="m-0">
+                    <img src="assets/images/박스로고(투명).png" alt="logo" height="36px">
+                    Chakhan
+                </h3>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#top" class="nav-link">
+                            홈
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#intro" class="nav-link">
+                            Intro
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">
+                            Services
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#slogan" class="nav-link">
+                            Slogan
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#gallery" class="nav-link">
+                            Gallery    
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#cta" class="nav-link">
+                            Contanct
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#find-us" class="nav-link">
+                            Find us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- 상단 메뉴 끝 -->
+    <!-- Top Section 첫 번째 시작 -->
+    <section id="top">
+        <div class="section-content overlay d-flex justify-content-center align-items-center">
+            <div class="container-xxl">
+                <div class="row align-items-center">
+                    <div class="col-md-9 welcome">
+                        <h1 class="welcome-title fw-light"><span class="text-warning fw-bold">쪽!쪽!</span> 젖병 구독 서비스</h1>
+                        <div class="divider"></div>
+                        <div class="row welcome-desc">
+                            <p class="col-sm-10 col-md-12 lead">우리는 엄마 아빠가 스트레스를 받으며 젖병을 매일 세척하지 않아야 <br> 아이도 스트레스 받지 않고 수유하고 배변하고 건강한 아이로 쑥!쑥! <br> 자랄 수 있다고 생각합니다.</p>
+                            <p class="col-sm-2 col-md-12">
+                                <a href="https://forms.gle/tn5ge1eAkh9n9bKq6" target="_blank" type="button" class="btn btn-primary">서비스 신청서</a>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 오른쪽 컬럼(여기는 == 구독신청) -->
+                    <div class="col-md-3 d-none d-md-block letsgo">
+                        <div class="card card-body letsgo-card">
+                            <div class="letsgo mb-3">
+                                <h4 class="letsgo-title card-title text-dark mb-3">구독 신청</h4>
+                                <p class="card-text text-secondary">더 착한에 "쪽!쪽!"서비스 구독으로 행복하고 건강한 아이로 키우세요~</p>
+                            </div>
+                            <div class="letsgo-card-form">
+                                <form>
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" placeholder="신청자명">
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="tel" class="form-control" placeholder="연락처">
+                                    </div>
+                                    <div class="form-check mb-3">
+                                        <input type="text" class="form-check-input" id="flexCheckDefault">
+                                        <label for="flexCheckDefault" class="form-check-label text-secondary">
+                                            개인정보 제공의 동의 합니다.
+                                        </label>
+                                    </div>
+                                    <p class="mb-3">
+                                        <button class="btn btn-primary w-100" type="button">보내기</button>
+                                    </p>
+                                </form>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Top Section 끝 -->
+
+    <!-- Middle Section 중간 카드 섹션 시작 -->
+    <section id="intro">
+        <div class="section-content">
+            <div class="container intro">
+                <div class="row align-items-center">
+                    <div class="col-md-6 intro-first">
+                        <div class="row px-md-3">
+                            <div class="col-6">
+                                <div class="card card-body my-3 position-relative rounded-3 shadow-lg intro-first-card">
+                                    <div class="overlay d-flex justify-content-center align-items-center position-absolute h-100 w-100 shadow-lg">
+                                        <h3 class="fw-light">
+                                            <a href="#" class="link-light text-decoration-none">Link 1</a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card card-body my-3 position-relative rounded-3 shadow-lg intro-first-card">
+                                    <div class="overlay d-flex justify-content-center align-items-center position-absolute h-100 w-100 shadow-lg">
+                                        <h3 class="fw-light">
+                                            <a href="#" class="link-light text-decoration-none">Link 2</a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card card-body my-3 position-relative rounded-3 shadow-lg intro-first-card">
+                                    <div class="overlay d-flex justify-content-center align-items-center position-absolute h-100 w-100 shadow-lg">
+                                        <h3 class="fw-light">
+                                            <a href="#" class="link-light text-decoration-none">Link 3</a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card card-body my-3 position-relative rounded-3 shadow-lg intro-first-card">
+                                    <div class="overlay d-flex justify-content-center align-items-center position-absolute h-100 w-100 shadow-lg">
+                                        <h3 class="fw-light">
+                                            <a href="#" class="link-light text-decoration-none">Link 4</a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Middle Section 2 중간섹션 두 번째 -->
+                    <div class="col-md-6 intro-second">
+                        <h5 class="fw-light">Greetings!</h5>
+                        <h1 class="mb-4">Introduce Clean Lab</h1>
+                        <div class="intro-text">
+                            <p class="lead">착한의 세척 프로세스는 6단계로 특별합니다.</p>
+                            <p class="lead">쪽쪽 젖병 세척 작업은 세밀하고 정밀하게 진행되고 메일 ATP 테스트를 실시 후 안정적인 수치에 젖병만을 배송 됩니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 하단 섹션 -->
+    <section id="services">
+        <div class="section-content">
+            <div class="container services">
+                <div class="services-header text-center mb-5">
+                    <h1 class="display-5">착한 토탈 서비스</h1>
+                    <div class="divider"></div>
+                    <p class="lead text-secondary">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam neque, beatae consectetur fuga eveniet quaerat cumque saepe dolor unde eos.
+                    </p>  
+                </div>
+                <div id="slick-slide" class="services-body">
+                    <div class="services-col mx-2 my-3">
+                        <div class="card">
+                            <a href="#">
+                                <img src="./assets/images/baby06.jpg" alt="" class="card-img-top">
+                            </a>
+                            <div class="card-body">
+                                <h4 class="card-title">아기 발가락 귀여워~~</h4>
+                                <p class="card-text fw-light mb-4">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id ut enim alias qui quod libero possimus similique minima doloribus exercitationem!
+                                </p>
+                                <a href="#" class="btn btn-primary">자세히 보기</a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services-col mx-2 my-3">
+                        <div class="card">
+                            <a href="#">
+                                <img src="./assets/images/baby07.jpg" alt="" class="card-img-top">
+                            </a>
+                            <div class="card-body">
+                                <h4 class="card-title">아기 발가락 귀여워~~</h4>
+                                <p class="card-text fw-light mb-4">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id ut enim alias qui quod libero possimus similique minima doloribus exercitationem!
+                                </p>
+                                <a href="#" class="btn btn-primary">자세히 보기</a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services-col mx-2 my-3">
+                        <div class="card">
+                            <a href="#">
+                                <img src="./assets/images/baby08.jpg" alt="" class="card-img-top">
+                            </a>
+                            <div class="card-body">
+                                <h4 class="card-title">아기 발가락 귀여워~~</h4>
+                                <p class="card-text fw-light mb-4">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id ut enim alias qui quod libero possimus similique minima doloribus exercitationem!
+                                </p>
+                                <a href="#" class="btn btn-primary">자세히 보기</a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services-col mx-2 my-3">
+                        <div class="card">
+                            <a href="#">
+                                <img src="./assets/images/baby01.jpg" alt="" class="card-img-top">
+                            </a>
+                            <div class="card-body">
+                                <h4 class="card-title">아기 발가락 귀여워~~</h4>
+                                <p class="card-text fw-light mb-4">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id ut enim alias qui quod libero possimus similique minima doloribus exercitationem!
+                                </p>
+                                <a href="#" class="btn btn-primary">자세히 보기</a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services-col mx-2 my-3">
+                        <div class="card">
+                            <a href="#">
+                                <img src="./assets/images/baby02.jpg" alt="" class="card-img-top">
+                            </a>
+                            <div class="card-body">
+                                <h4 class="card-title">아기 발가락 귀여워~~</h4>
+                                <p class="card-text fw-light mb-4">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id ut enim alias qui quod libero possimus similique minima doloribus exercitationem!
+                                </p>
+                                <a href="#" class="btn btn-primary">자세히 보기</a> 
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </section>
+    <!-- 슬로건 섹션 -->
+    <section id="slogan">
+        <div class="section-content d-flex align-items-center h-100">
+            <div class="container slogan">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card card-body slogan-card">
+                            <h1 class="mb-3 mb-3">우리의 약속</h1>
+                            <p class="lead">
+                                아기가 태어나서 하는 처음 식사를 배앓이 없이 수유 할 수 있도록 안전하고,깨끗하게 세척하고 배송 하겠습니다.
+                            </p>
+                            <p class="lead">
+                                정말 6단계의 걸친 착한의 말끔이 세척...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 우리의 약속 Section -->
+    <section id="features">
+        <div class="section-content">
+            <div class="container features">
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <div class="card card-body shadow border-0 features-card">
+                            <h4 class="card-title mb-3">
+                                <span class="fw-bold">1</span>
+                                착한-Baby
+                            </h4>
+                            <p class="card-text fw-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex accusamus, odio necessitatibus tenetur perferendis dolore repellat officiis pariatur beatae nihil.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card card-body shadow border-0 features-card">
+                            <h4 class="card-title mb-3">
+                                <span class="fw-bold">2</span>
+                                착한-Kid
+                            </h4>
+                            <p class="card-text fw-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex accusamus, odio necessitatibus tenetur perferendis dolore repellat officiis pariatur beatae nihil.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card card-body shadow border-0 features-card">
+                            <h4 class="card-title mb-3">
+                                <span class="fw-bold">3</span>
+                                착한-Adult
+                            </h4>
+                            <p class="card-text fw-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex accusamus, odio necessitatibus tenetur perferendis dolore repellat officiis pariatur beatae nihil.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 갤러리 섹션 -->
+    <section id="gallery">
+        <div class="section-content">
+            <div class="container gallery">
+                <div class="gallery-header text-center mb-5">
+                    <h1 class="display-4">Mom 갤러리</h1>
+                    <!-- <div class="divider"></div> -->
+                    <a href="#" target="_blank" type="button" class="btn btn-primary">맘's 마음</a>
+                    <div class="divider"></div>
+                    <p class="lead text-secondary">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, deleniti libero? Rerum qui eius natus doloribus reprehenderit similique veritatis possimus.
+                    </p>
+                </div>
+                <div class="row gallery-body">
+                    <div class="col-md-4 col-sm-6 mb-4 gallery-item">
+                       <div class="card card-body border-0 p-0">
+                            <div class="overlay d-flex flex-column justify-content-center align-items-center h-100 w-100 border-2">
+                                <h2 class="gallery-title">아이 사진 1</h2>
+                                <a class="link-warning text-decoration-none" href="#">사진보기</a>
+                            </div>
+                       </div> 
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-4 gallery-item">
+                        <div class="card card-body border-0 p-0">
+                            <div class="overlay d-flex flex-column justify-content-center align-items-center h-100 w-100 border-2">
+                                <h2 class="gallery-title">아이 사진 2</h2>
+                                <a class="link-warning text-decoration-none" href="#">사진보기</a>
+                            </div>
+                       </div> 
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-4 gallery-item">
+                        <div class="card card-body border-0 p-0">
+                            <div class="overlay d-flex flex-column justify-content-center align-items-center h-100 w-100 border-2">
+                                <h2 class="gallery-title">아이 사진 3</h2>
+                                <a class="link-warning text-decoration-none" href="#">사진보기</a>
+                            </div>
+                       </div> 
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-4 gallery-item"><div class="card card-body border-0 p-0">
+                        <div class="overlay d-flex flex-column justify-content-center align-items-center h-100 w-100 border-2">
+                            <h2 class="gallery-title">아이 사진 4</h2>
+                            <a class="link-warning text-decoration-none" href="#">사진보기</a>
+                        </div>
+                   </div> </div>
+                    <div class="col-md-4 col-sm-6 mb-4 gallery-item"><div class="card card-body border-0 p-0">
+                        <div class="overlay d-flex flex-column justify-content-center align-items-center h-100 w-100 border-2">
+                            <h2 class="gallery-title">아이 사진 5</h2>
+                            <a class="link-warning text-decoration-none" href="#">사진보기</a>
+                        </div>
+                   </div> </div>
+                    <div class="col-md-4 col-sm-6 mb-4 gallery-item">
+                        <div class="card card-body border-0 p-0">
+                            <div class="overlay d-flex flex-column justify-content-center align-items-center h-100 w-100 border-2">
+                                <h2 class="gallery-title">아이 사진 6</h2>
+                                <a class="link-warning text-decoration-none" href="#">사진보기</a>
+                            </div>
+                       </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Point 상담하기-->
+    <section id="cta" class="position-relative">
+        <div class="section-content position-absolute h-100 w-100 overlay d-flex flex-column justify-content-center align-items-center">
+            <div class="container text-center cta">
+                <h3 class="display-6 text-primary">
+                    24h 상담하기!
+                </h3>
+                <h2 class="display-4 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                <p class="lead text-light mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore fugiat illo voluptatum, optio saepe doloremque corrupti aspernatur voluptate tempora esse.</p>
+                <h1 class="m-0">
+                    <a href="tel:02-111-1111" class="link-warning text-decoration-none">02-111-1111</a>
+                </h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location 지도 표시 -->
+    <section id="find-us">
+        <div class="container-fluid px-0 mb-3">
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3161.502255708005!2d127.14521867648459!3d37.59033682276193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cb0c084da1745%3A0x8825a5608da76885!2z6rK96riw64-EIOq1rOumrOyLnCDthqDtj4nrj5kgOTY4LTM!5e0!3m2!1sko!2skr!4v1695186121303!5m2!1sko!2skr" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 offset-md-8 col-10 find-us">
+                    <h3>문의하기!</h3>
+                    <div class="divider"></div>
+                        <p class="text-secondary">쪽!쪽! 서비스에 대한 문의사항 있으시면 연락처를 남겨 주세요.상담원이 바로 연락 드리겠습니다.</p>
+                        <div class="flex text-secondary">
+                            <p class="fw-bold me-5">
+                                <span class="text-uppercase">전화번호</span>:
+                                <a href="tel:010-2681-2665" class="text-decoration-none">010-2681-2665</a>
+                            </p>
+                            <p class="fw-bold">
+                                <span class="text-uppercase">이메일</span>:
+                                <a href="mailto:info@chakhan.xyz" class="text-decoration-none">info@chakhan.xyz</a>
+                            </p>
+                        </div> 
+                         <form action="">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="성함">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="이메일">
+                            </div>
+                            <div class="mb-3">
+                                <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="서비스에 관련된 무엇이든 문의 주세요!"></textarea>
+                            </div>
+                            <div class="mb-3">
+                                <input type="checkbox" id="checkDefault" class="form-check-input">
+                                <label for="checkDefault" class="form-check-label text-secondary">개인정보를 제공하는 것에 동의 합니다.</label>
+                            </div>
+                            <p class="mb-3">
+                                <button class="btn btn-primary w-100">보내기</button>
+                            </p>
+                         </form>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer 하단 -->
+    <footer id="footer">
+        <div class="section-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 mb-4 text-center footer-1">
+                        <img src="./assets/images/logo.png" alt="하단로고" width="5px" class="img-fluid footer-logo">
+                        <div class="sns mt-4">
+                            <a target="_blank" href="#" class="mx-1 text-decoration-none social">
+                                <img src="./assets/images/icon-facebook.png" alt="Facebook" width="38px">
+                            </a>
+                            <a target="_blank" href="#" class="mx-1 text-decoration-none social">
+                                <img src="./assets/images/icon-instagram.png" alt="Instagram" width="38px">
+                            </a>
+                            <a target="_blank" href="#" class="mx-1 text-decoration-none social">
+                                <img src="./assets/images/icon-twitter.png" alt="Twitter" width="38px">
+                            </a>
+                            <a target="_blank" href="#" class="mx-1 text-decoration-none social">
+                                <img src="./assets/images/icon-youtube.png" alt="Youtube" width="38px">
+                            </a>
+                            <a target="_blank" href="#" class="mx-1 text-decoration-none social">
+                                <img src="./assets/images/icon-kakao.png" alt="Kakao-chanel" width="38px">
+                            </a>
+                            <a target="_blank" href="#" class="mx-1 text-decoration-none social">
+                                <img src="./assets/images/icon-naver.png" alt="Naver-blog" width="38px">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4 text-left footer-2">
+                        <h4 class="mb-4">Footer 2</h4>
+                        <ul>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 mb-4 text-left footer-3">
+                        <h4 class="mb-4">Footer 3</h4>
+                        <ul>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                            <li>Lorem ipsum dolor sit.</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 mb-4 text-left footer-4">
+                        <h4 class="mb-4">Our Infos</h4>
+                        <div class="info-body">
+                            <p class="mb-2">
+                                <i class="fas fa-user"></i> 책임자: 장 홍 원
+                            </p>
+                            <p class="mb-2">
+                                <i class="fas fa-map-marked-alt"></i> 주소: 경기도 구리시 토평동 968-3, 203호
+                            </p>
+                            <p class="mb-2">
+                                <i class="fas fa-phone-square-alt"></i> 전화번호: 010-2681-2665
+                            </p>
+                            <p class="mb-2">
+                                <i class="fas fa-hospital"></i> 사업자등록번호: 111-11-111111
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.slim.min.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj+KsslFkCOt3TvJrX2AV/Gc3wOqA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
